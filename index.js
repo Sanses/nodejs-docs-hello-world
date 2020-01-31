@@ -3,7 +3,7 @@ var http = require('http');
 var server = http.createServer(function(request, response) {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello World! 2020-01-31!!");
+    response.end("Hello World! 스토어기술운영팀 화이팅 !!! 2020-01-31!!");
 
 });
 
